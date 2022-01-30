@@ -1,0 +1,18 @@
+name: Spawn
+main: com.lunarelly.SpawnPlugin
+
+api: 1.0.0
+version: 1.0-SNAPSHOT
+
+author: Lunarelly
+website: https://github.com/Lunarelly
+
+commands:
+  spawn:
+    description: "Spawn command"
+    permission: lunarelly.spawn
+
+permissions:
+  lunarelly.spawn:
+    default: true
+    description: "Spawn command permission"
